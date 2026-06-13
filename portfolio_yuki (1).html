@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>牟田 由希 — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Yuki Muta</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#works">Works</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-hamburger" id="hamburger" role="button" tabindex="0" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Designer &amp; Front-end Developer</p>
+    <h1 class="hero-name">牟田 由希<br><em>Portfolio</em></h1>
+    <p class="hero-desc">バナー・LPデザインを中心に、<br>余白と世界観を意識した制作が得意です。<br>HTML/CSSをさらに強化し、<br>デザインとコードの両面から価値を届けられる<br>クリエイターを目指しています。</p>
+    <div class="hero-tools">
+      <span class="tool-tag">Figma</span>
+      <span class="tool-tag">Photoshop</span>
+      <span class="tool-tag">Illustrator</span>
+      <span class="tool-tag">HTML / CSS</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#works" class="btn-line">作品を見る &rarr;</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-wrap">
+      <!-- ここを <img src="ライフスタイル.png" ... /> に差し替えてください -->
+      <img src="ライフスタイル.png" alt="ライフスタイルバナー" style="width:100%;height:100%;object-fit:contain;display:block;" />
+    </div>
+    <p class="hero-caption">Life Style Banner — 2024</p>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section id="works">
+  <div class="works-header fade-reveal">
+    <h2 class="works-title">Works</h2>
+    <span class="works-count">Selected Projects</span>
+  </div>
+  <div class="works-grid">
+
+    <div class="work-item">
+      <div class="work-thumb-wrap">
+        <img src="RINGO.png" alt="りんごソルベバナー" />
+      </div>
+      <p class="work-label">SNS Banner &mdash; 2025</p>
+      <h3 class="work-name">りんごソルベ 夏季限定バナー</h3>
+      <p class="work-note">夏季限定メニューのSNSバナー。賑やかさの中に余白感を意識。</p>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb-wrap">
+        <img src="ライフスタイル.png" alt="ライフスタイルバナー" />
+      </div>
+      <p class="work-label">Brand Visual &mdash; 2024</p>
+      <h3 class="work-name">ライフスタイルブランド 世界観バナー</h3>
+      <p class="work-note">ベージュトーンと細いセリフ体で上質感を表現。</p>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb-wrap">
+        <img src="父の日バナー.png" alt="父の日ギフト特集バナー" />
+      </div>
+      <p class="work-label">SNS Banner &mdash; 2025</p>
+      <h3 class="work-name">父の日ギフト特集バナー</h3>
+      <p class="work-note">YouTubeチュートリアルを参考に模写練習として制作。</p>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb-wrap">
+        <img src="ポートフォリオ.png" alt="ポートフォリオサイト" />
+      </div>
+      <p class="work-label">Web Design &mdash; 2025</p>
+      <h3 class="work-name">HTML / CSS ポートフォリオサイト</h3>
+      <p class="work-note">このページ自体が制作物です。レスポンシブ・アニメーション対応のコーディング実績。</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-inner">
+    <div class="skills-text">
+      <p class="section-num fade-reveal">Skills</p>
+      <h2 class="skills-heading fade-reveal">得意なこと</h2>
+      <p class="fade-reveal">デザインツールを中心に、バナーやLPの制作が得意です。コーディングもさらに強化し、デザインとエンジニアリング双方から活躍できるよう、日々励んでいます。</p>
+    </div>
+    <div class="skills-list">
+      <div class="skill-row" data-delay="0" data-width="90">
+        <div class="skill-icon-wrap">🎨</div>
+        <div class="skill-info">
+          <div class="skill-title">Figma</div>
+          <div class="skill-sub">UIデザイン・バナー制作</div>
+        </div>
+        <div class="skill-bar-wrap"><div class="skill-bar-fill"></div></div>
+      </div>
+      <div class="skill-row" data-delay="1" data-width="70">
+        <div class="skill-icon-wrap">🖼</div>
+        <div class="skill-info">
+          <div class="skill-title">Photoshop</div>
+          <div class="skill-sub">画像加工・合成（基礎）</div>
+        </div>
+        <div class="skill-bar-wrap"><div class="skill-bar-fill"></div></div>
+      </div>
+      <div class="skill-row" data-delay="2" data-width="65">
+        <div class="skill-icon-wrap">✏️</div>
+        <div class="skill-info">
+          <div class="skill-title">Illustrator</div>
+          <div class="skill-sub">ロゴ・ベクターデザイン（基礎）</div>
+        </div>
+        <div class="skill-bar-wrap"><div class="skill-bar-fill"></div></div>
+      </div>
+      <div class="skill-row" data-delay="3" data-width="55">
+        <div class="skill-icon-wrap">💻</div>
+        <div class="skill-info">
+          <div class="skill-title">HTML / CSS</div>
+          <div class="skill-sub">コーディング（基礎）</div>
+        </div>
+        <div class="skill-bar-wrap"><div class="skill-bar-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="contact-overline fade-reveal">Contact</p>
+  <div class="divider"></div>
+  <h2 class="contact-heading fade-reveal">最後までご覧いただき、<br><em>ありがとうございます。</em></h2>
+  <p style="text-align:center; color: var(--mid); font-size:0.9rem; line-height:2; margin: 0 auto 2.5rem; max-width: 480px;">もしよろしければ、一緒にお仕事させていただけると嬉しいです。</p>
+  <div class="contact-links fade-reveal">
+    <a href="mailto:hello@yukimuta.design" class="contact-link">
+      <div class="contact-link-icon">✉</div>
+      <span class="contact-link-label">Email</span>
+    </a>
+    <a href="https://twitter.com/" target="_blank" class="contact-link">
+      <div class="contact-link-icon">𝕏</div>
+      <span class="contact-link-label">Twitter</span>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" class="contact-link">
+      <div class="contact-link-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+        </svg>
+      </div>
+      <span class="contact-link-label">Instagram</span>
+    </a>
+    <a href="https://note.com/" target="_blank" class="contact-link">
+      <div class="contact-link-icon">n</div>
+      <span class="contact-link-label">Note</span>
+    </a>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <span id="lightbox-close">✕</span>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<footer>
+  <p>&copy; 2024 Yuki Muta &mdash; Designer &amp; Front-end Developer</p>
+</footer>
+
+<script>
+// Hamburger
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+// Scroll reveal
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.fade-reveal').forEach(el => io.observe(el));
+
+// Work items
+const workIO = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const i = Array.from(document.querySelectorAll('.work-item')).indexOf(e.target);
+      setTimeout(() => e.target.classList.add('visible'), i * 120);
+      workIO.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.work-item').forEach(el => workIO.observe(el));
+
+// Skill bars
+const skillIO = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const delay = parseInt(e.target.dataset.delay || '0');
+      const width = e.target.dataset.width + '%';
+      setTimeout(() => {
+        e.target.classList.add('visible');
+        const fill = e.target.querySelector('.skill-bar-fill');
+        if (fill) fill.style.width = width;
+      }, delay * 150);
+      skillIO.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.skill-row').forEach(el => skillIO.observe(el));
+
+// Lightbox
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const lightboxClose = document.getElementById('lightbox-close');
+
+document.querySelectorAll('.work-thumb-wrap img').forEach(img => {
+  img.addEventListener('click', () => {
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+});
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox || e.target === lightboxClose) {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+});
+
+// Nav highlight
+const sections = document.querySelectorAll('section[id]');
+window.addEventListener('scroll', () => {
+  let cur = '';
+  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 150) cur = s.id; });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--dark)' : '';
+  });
+});
+</script>
+</body>
+</html>
